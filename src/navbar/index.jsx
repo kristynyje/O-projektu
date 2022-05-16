@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router';
 
 /* je to myšlený tak, že tuhle komponentu vložíme vždycky na začátek každé té nové stránky */
 
