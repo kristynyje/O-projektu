@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Oxygen Mono', monospace;
+  text-align: center;
+}
+.page_container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(168, 200, 204);
+  height: 4rem;
+}
+
+.container {
+  margin: 5rem;
+}
+
+button {
+  background-color: rgb(168, 200, 204);
+  height: 5rem;
+  width: 14rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Oxygen Mono', monospace;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  margin: 5rem;
+}
+.h2_app {
+  font-size: 2rem;
+  margin: 9rem;
+}
+
+.h3_app {
+  font-size: 1.7rem;
+}
+
+img {
+  border-radius: 50%;
+  width: 190px;
+  margin: 2rem;
+  margin-bottom: 6rem;
+}
+
+a:link {
+  color: #ffffff;
+  text-shadow: 1.5px 1.5px rgba(1, 83, 88, 0.425);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+a:visited {
+  text-shadow: 1.5px 1.5px rgba(1, 83, 88, 0.425);
+  color: #ffffff;
+}
+a:hover {
+  color: rgb(3, 21, 24);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 92%;
+}
