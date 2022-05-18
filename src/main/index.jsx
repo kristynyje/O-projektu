@@ -8,8 +8,8 @@ export const Main = () => {
       <main>
         <h2>
           Ahoj! Vítáme tě na webové stránce věnované informacím ohledně našeho
-          závěrečného projektu Digitální akademie WEB- ProDobro - Platforma pro
-          dobročinné aukce
+          závěrečného projektu Digitální akademie: <br></br> ProDobro -
+          Platforma pro dobročinné aukce
         </h2>
         <h3>Autorky</h3>
         <div className="authors">

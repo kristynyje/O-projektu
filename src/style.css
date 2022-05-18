@@ -23,14 +23,14 @@ html {
 }
 
 .container {
-  margin: 5rem;
+  margin: 3rem;
 }
 
 button {
   background-color: rgb(168, 200, 204);
   height: 5rem;
-  width: 14rem;
-  font-size: 1.2rem;
+  width: 11rem;
+  font-size: 0.9rem;
   border-radius: 10px;
   border: none;
   font-family: 'Oxygen Mono', monospace;
@@ -38,30 +38,31 @@ button {
 
 h1 {
   text-align: center;
-  font-size: 2.2rem;
-  margin: 5rem;
+  font-size: 1.3rem;
+  margin: 4rem;
 }
 h2 {
-  font-size: 1.5rem;
-  margin: 9rem;
+  font-size: 1rem;
+  margin-top: 4rem;
 }
 
 h3 {
-  font-size: 1.4rem;
+  margin-top: 4rem;
+  font-size: 1.2rem;
 }
 
 img {
   border-radius: 50%;
-  width: 190px;
-  margin: 2rem;
-  margin-bottom: 6rem;
+  width: 100px;
+  margin: 1rem;
+  margin-bottom: 4rem;
 }
 
 a:link {
   color: #ffffff;
   text-shadow: 1.5px 1.5px rgba(1, 83, 88, 0.425);
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 a:visited {
@@ -75,5 +76,92 @@ a:hover {
 footer {
   position: absolute;
   bottom: 0;
-  width: 92%;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 650px) {
+  .container {
+    margin: 6rem 5rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    margin-top: 7rem;
+  }
+  a:link {
+    font-size: 1.2rem;
+  }
+  img {
+    width: 170px;
+    margin: 2rem;
+  }
+  button {
+    margin: 3rem;
+  }
+}
+
+@media (min-width: 850px) {
+  .container {
+    margin: 6rem 7rem;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+    margin-top: 7rem;
+  }
+  a:link {
+    font-size: 1.3rem;
+  }
+  img {
+    width: 180px;
+    margin: 3rem;
+  }
+  button {
+    margin: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    margin: 6rem 18rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+    margin-top: 7rem;
+  }
+  a:link {
+    font-size: 1.5rem;
+  }
+  img {
+    width: 200px;
+    margin: 3rem;
+  }
+  button {
+    margin: 5rem;
+    height: 6rem;
+    width: 14rem;
+    font-size: 1.2rem;
+  }
 }
