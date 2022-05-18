@@ -6,8 +6,12 @@ export const Main = () => {
   return (
     <div className="container">
       <main>
-        <h2 className="h2_app">ProDobro - Platforma pro dobročinné aukce</h2>
-        <h3 className="h3_app">Autorky</h3>
+        <h2>
+          Ahoj! Vítáme tě na webové stránce věnované informacím ohledně našeho
+          závěrečného projektu Digitální akademie WEB- ProDobro - Platforma pro
+          dobročinné aukce
+        </h2>
+        <h3>Autorky</h3>
         <div className="authors">
           <img src={Kristyna} alt="autorka Kristýna" />
           <img src={Regina} alt="autorka Regina" />

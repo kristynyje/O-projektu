@@ -38,16 +38,16 @@ button {
 
 h1 {
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   margin: 5rem;
 }
-.h2_app {
-  font-size: 2rem;
+h2 {
+  font-size: 1.5rem;
   margin: 9rem;
 }
 
-.h3_app {
-  font-size: 1.7rem;
+h3 {
+  font-size: 1.4rem;
 }
 
 img {
@@ -61,11 +61,11 @@ a:link {
   color: #ffffff;
   text-shadow: 1.5px 1.5px rgba(1, 83, 88, 0.425);
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 a:visited {
-  text-shadow: 1.5px 1.5px rgba(1, 83, 88, 0.425);
+  text-shadow: 1.3px 1.5px rgba(1, 83, 88, 0.425);
   color: #ffffff;
 }
 a:hover {

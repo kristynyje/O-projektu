@@ -14,7 +14,8 @@ export const App = () => {
         <h1>Závěrečný projekt Digitální akademie WEB 🖥 </h1>{' '}
         <div id="nav">
           <nav className="navigation">
-            <Link to="/projekt">Projekt</Link>
+            <Link to="/">Hlavní strana</Link>
+            <Link to="/projekt">O projektu</Link>
             <Link to="/autorky">O autorkách</Link>
           </nav>
           <Outlet />
@@ -31,6 +32,15 @@ createRoot(document.querySelector('#app')).render(
         <Route path="/" element={<Main />} />
         <Route path="projekt" element={<Projekt />} />
         <Route path="autorky" element={<Autorky />} />
+        <Route
+          path="*"
+          element={
+            <main style={{ padding: '3rem', fontSize: '1.3rem' }}>
+              {' '}
+              <p> Hmmmm...tak tady fakt nic není! 🧐 </p>{' '}
+            </main>
+          }
+        />
       </Route>
     </Routes>
   </BrowserRouter>,

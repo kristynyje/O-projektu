@@ -4,7 +4,7 @@ export const Autorky = () => {
   return (
     <>
       <div>
-        <p> Blablabla bla bla</p>
+        <h2> Ahoj, my jsme Regina a Kristýna, autorky projektu ProDobro.</h2>
       </div>
     </>
   );
