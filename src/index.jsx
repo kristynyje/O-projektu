@@ -1,17 +1,24 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './style.css';
-import { projekt } from './projekt';
-import { autorky } from './autorky';
+import { Projekt } from './projekt';
+import { Autorky } from './autorky';
 import Kristyna from './img/foto.Kristyna.jpg';
 import Regina from './img/foto.Regina.jpg';
 import { Navbar } from './navbar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => (
   <>
     <div className="page_container">
       <header>
-        <Navbar />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Navbar />} />
+            <Route path="projekt" element={<Projekt />} />
+            <Route path="autorky" element={<Autorky />} />
+          </Routes>
+        </BrowserRouter>
       </header>
       <div className="container">
         <main>
