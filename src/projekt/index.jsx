@@ -4,9 +4,7 @@ import { Navbar } from '../navbar';
 export const Projekt = () => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+      <div></div>
     </>
   );
 };
