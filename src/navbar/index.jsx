@@ -10,10 +10,9 @@ export const Navbar = () => {
         <h1>Závěrečný projekt Digitální akademie WEB 🖥 </h1>{' '}
         <div id="nav">
           <nav className="navigation">
-            <Link to="/projekt">Projekt</Link>
-            <Link to="/autorky">O autorkách</Link>
+            <a href="/projekt">Projekt</a>
+            <a href="/autorky">O autorkách</a>
           </nav>
-          <Outlet />
         </div>
       </div>
     </>
