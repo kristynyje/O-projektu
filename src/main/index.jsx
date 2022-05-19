@@ -2,6 +2,8 @@ import React from 'react';
 import Kristyna from './foto.Kristyna.jpg';
 import Regina from './foto.Regina.jpg';
 
+/* TODO: nastavit na button proklik na např. "O projektu"  nebo po kliknutí může být pop up "Tak klikni na 'O projektu'!" */
+
 export const Main = () => {
   return (
     <div className="container">

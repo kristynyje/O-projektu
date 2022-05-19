@@ -1,6 +1,6 @@
 import React from 'react';
 
-/* TODO: Vložit fotky, nastylovat */
+/* TODO: Vložit ke každé autorce fotku, nastylovat, vložit linky s odkazem na Github, při kliknutí "tady" a "zde" */
 
 export const Autorky = () => {
   return (
