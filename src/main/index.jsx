@@ -13,8 +13,12 @@ export const Main = () => {
         </h2>
         <h3>Autorky</h3>
         <div className="authors">
-          <img src={Kristyna} alt="autorka Kristýna" />
-          <img src={Regina} alt="autorka Regina" />
+          <img
+            className="authors_photo"
+            src={Kristyna}
+            alt="autorka Kristýna"
+          />
+          <img className="authors_photo" src={Regina} alt="autorka Regina" />
         </div>
         {/*  button bude mít funkci onClick a dostane nás to na stránku Projekt */}
         <button className="btn_more"> CHCI SE DOZVĚDĚT ✨ VÍC ✨</button>
