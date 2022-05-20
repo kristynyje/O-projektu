@@ -6,14 +6,14 @@ export const Autorky = () => {
   return (
     <>
       <div className="container">
-        <p>
+        <p className="p_autorky">
           {' '}
           Autorky projektu ProDobro jsou Regina a Kristýna. Obě chtěly udělat
           závěrečný projekt, který bude přínosný pro společnost a ideálně bude
           pomáhat jakkoliv znevýhodněným lidem. Proto se rozhodly, že vytvoří
           platformu pro dobročinné aukce.{' '}
         </p>
-        <p>
+        <p className="p_autorky">
           {' '}
           Regina pochází z Ruska, v Česku žije 3 roky a je maminkou tří dětí.
           Vystudovala právnickou fakultu a nyní pracuje jako dispečerka v
@@ -21,7 +21,7 @@ export const Autorky = () => {
           čte a učí se nové věci. Její práci můžete sledovat třeba na tady na
           Githubu.{' '}
         </p>
-        <p>
+        <p className="p_autorky">
           {' '}
           Kristýna teprv nedávno dokončila studium na VŠE a aktuálně pracuje
           jako product development manager v malé kosmetické firmě. Nejradši ze

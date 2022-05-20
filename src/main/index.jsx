@@ -28,9 +28,10 @@ export const Main = () => {
           <button className="btn_more"> CHCI SE DOZVĚDĚT ✨ VÍC ✨</button>
         </Link>
       </main>
-      <footer>
+
+      <div className="footer">
         <p>Czechitas, Digitální akademie: Web, 2022</p>
-      </footer>
+      </div>
     </div>
   );
 };

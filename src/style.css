@@ -11,7 +11,7 @@ html {
 }
 .page_container {
   position: relative;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 .navigation {
@@ -54,16 +54,22 @@ h3 {
   margin-top: 4rem;
   font-size: 1.1rem;
 }
+.p_autorky,
+.p_projekt {
+  text-align: justify;
+  margin: 2rem;
+}
 
 .authors_photo {
   border-radius: 50%;
   width: 100px;
   margin: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .logo_ProDobro {
   font-family: 'Ms Madi', cursive;
   font-size: 5rem;
+  text-align: center;
 }
 
 a:link {
@@ -89,12 +95,12 @@ button:hover {
   font-weight: bold;
 }
 
-footer {
-  position: absolute;
-  bottom: -60px;
-  /* osa Y */
-  left: 0px;
-  /* osa X */
+.footer {
+  margin: 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
   font-size: 0.8rem;
 }
 
