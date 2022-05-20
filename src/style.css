@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 
 * {
   box-sizing: border-box;
@@ -19,7 +20,7 @@ html {
   justify-content: space-around;
   align-items: center;
   background-color: rgb(168, 200, 204);
-  height: 4rem;
+  height: 3rem;
 }
 
 .container {
@@ -28,18 +29,21 @@ html {
 
 button {
   background-color: rgb(168, 200, 204);
+  text-shadow: 1.5px 1.5px rgba(1, 83, 88, 0.425);
+  color: white;
   height: 5rem;
-  width: 11rem;
+  width: 10rem;
   font-size: 0.9rem;
   border-radius: 10px;
   border: none;
   font-family: 'Oxygen Mono', monospace;
+  box-shadow: 1px -1px 26px 1px rgba(49, 109, 125, 0.48);
 }
 
 h1 {
   text-align: center;
   font-size: 1.3rem;
-  margin: 4rem;
+  margin: 3rem;
 }
 h2 {
   font-size: 1rem;
@@ -48,7 +52,7 @@ h2 {
 
 h3 {
   margin-top: 4rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .authors_photo {
@@ -58,7 +62,8 @@ h3 {
   margin-bottom: 4rem;
 }
 .logo_ProDobro {
-  width: 230px;
+  font-family: 'Ms Madi', cursive;
+  font-size: 5rem;
 }
 
 a:link {
@@ -76,6 +81,14 @@ a:hover {
   color: rgb(3, 21, 24);
 }
 
+button:hover {
+  color: rgb(3, 21, 24);
+}
+
+.bold_title {
+  font-weight: bold;
+}
+
 footer {
   position: absolute;
   bottom: -60px;
@@ -87,26 +100,25 @@ footer {
 
 @media (min-width: 650px) {
   .container {
-    margin: 6rem 5rem;
+    margin: 5rem 4rem;
   }
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   h2 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   h3 {
-    font-size: 1.3rem;
-    margin-top: 7rem;
+    font-size: 1rem;
+    margin-top: 5rem;
   }
   a:link {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .authors_photo {
-    width: 170px;
-    margin: 2rem;
+    width: 150px;
   }
   button {
     margin: 3rem;
@@ -115,26 +127,25 @@ footer {
 
 @media (min-width: 850px) {
   .container {
-    margin: 6rem 7rem;
+    margin: 5rem 7rem;
   }
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 
   h3 {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     margin-top: 7rem;
   }
   a:link {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .authors_photo {
     width: 180px;
-    margin: 3rem;
   }
   button {
     margin: 3rem;
@@ -143,7 +154,7 @@ footer {
 
 @media (min-width: 1200px) {
   .container {
-    margin: 6rem 18rem;
+    margin: 6rem 15rem;
   }
   h1 {
     font-size: 2rem;
@@ -162,7 +173,6 @@ footer {
   }
   .authors_photo {
     width: 190px;
-    margin: 2.5rem;
   }
   button {
     margin: 5rem;

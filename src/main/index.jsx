@@ -11,7 +11,7 @@ export const Main = () => {
       <main>
         <h2>
           Ahoj! Vítáme tě na webové stránce věnované informacím ohledně našeho
-          závěrečného projektu Digitální akademie: <br></br> ProDobro -
+          závěrečného projektu Digitální akademie: <span>ProDobro</span> -
           Platforma pro dobročinné aukce
         </h2>
         <h3>Autorky</h3>
