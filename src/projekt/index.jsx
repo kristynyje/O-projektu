@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from './logo.png';
 
 export const Projekt = () => {
   return (

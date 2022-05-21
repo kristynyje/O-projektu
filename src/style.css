@@ -84,6 +84,16 @@ a:link {
   text-decoration: none;
   font-size: 1rem;
 }
+.autorky_odkaz:link {
+  color: rgb(36, 81, 79);
+}
+.autorky_odkaz:visited {
+  color: rgb(76, 116, 114);
+}
+
+.autorky_odkaz:hover {
+  color: rgba(30, 69, 37, 0.661);
+}
 
 a:visited {
   text-shadow: 1.3px 1.5px rgba(1, 83, 88, 0.425);
