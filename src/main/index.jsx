@@ -2,8 +2,6 @@ import React from 'react';
 import Kristyna from './foto.Kristyna.jpg';
 import Regina from './foto.Regina.jpg';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 /* TODO: nastavit na button proklik na např. "O projektu"  nebo po kliknutí může být pop up "Tak klikni na 'O projektu'!" */
 
@@ -23,9 +21,7 @@ export const Main = () => {
             src={Kristyna}
             alt="autorka Kristýna"
           />
-          <FontAwesomeIcon icon="fa-regular fa-coffee" color="black" />
-          <i class="fa fa-github" aria-hidden="true"></i>
-          {/* <FontAwesomeIcon icon={faBars} color="red" /> */}
+
           <img className="authors_photo" src={Regina} alt="autorka Regina" />
         </div>
         {/*  button bude mít funkci onClick a dostane nás to na stránku Projekt */}
