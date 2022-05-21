@@ -2,8 +2,6 @@ import React from 'react';
 import Kristyna from '/src/main/foto.Kristyna.jpg';
 import Regina from '/src/main/foto.Regina.jpg';
 
-/* TODO: Vložit ke každé autorce fotku, nastylovat, vložit linky s odkazem na Github, při kliknutí "tady" a "zde" */
-
 export const Autorky = () => {
   return (
     <>
