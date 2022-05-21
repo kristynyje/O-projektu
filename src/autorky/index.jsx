@@ -29,9 +29,8 @@ export const Autorky = () => {
         <p className="p_autorky">
           Kristýna teprv nedávno dokončila studium na VŠE a aktuálně pracuje
           jako product development manager v malé kosmetické firmě. Nejradši ze
-          všeho plánuje výlety po světě, sleduje bizarní reality shows a vaří
-          gluten-free dairy-free dobroty (jo a programuje teď když to trochu
-          umí). Její snažení můžete zkouknout{' '}
+          všeho plánuje výlety po světě, sleduje bizarní reality shows, vaří a
+          učí se programovat. Její snažení můžete zkouknout{' '}
           <a className="autorky_odkaz" href="https://github.com/kristynyje">
             zde
           </a>
